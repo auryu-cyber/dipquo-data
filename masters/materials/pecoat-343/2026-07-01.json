@@ -1,0 +1,10 @@
+{
+  "materialCode": "pecoat-343",
+  "displayName": "Pecoat 343 (Green)",
+  "pricePerKg": 114.42,
+  "effectiveFrom": "2026-07-01",
+  "conditions": { "factory": "Lat Krabang" },
+  "recordedAt": "2026-06-28T10:00:00+07:00",
+  "recordedBy": "a.uryu@kunomura.com",
+  "note": "[SEED DATA] サプライヤー価格改定を想定したサンプル。実データで置き換えること。"
+}

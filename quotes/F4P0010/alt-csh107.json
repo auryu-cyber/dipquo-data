@@ -1,0 +1,74 @@
+{
+  "id": "F4P0010",
+  "variant": "alt-csh107",
+  "productName": "F4P0010",
+  "status": "comparison",
+  "monthlyQty": 40000,
+  "updatedAt": "2026-08-20T18:42:00+07:00",
+  "updatedBy": "a.uryu@kunomura.com",
+
+  "materialRef": { "materialCode": "csh107", "effectiveFrom": "2026-01-01" },
+  "material": {
+    "name": "CSH107 (Green)",
+    "pricePerKg": 150.00,
+    "weightG": 9.5,
+    "lossRate": { "setting": 0.02, "moulding": 0.02, "cutting": 0.02, "inspection": 0.02 }
+  },
+
+  "laborRef": { "record": "labor-rates/default/2026-01-01" },
+  "labor": {
+    "hourlyChargeTHB": 50,
+    "processes": [
+      { "name": "Dipping", "qtyPerShot": 180, "cycleTimeMin": 6, "machines": 1, "lossRate": 0.04 },
+      { "name": "Cutting (Manual)", "qtyPerHour": 100, "lossRate": 0.02 },
+      { "name": "Inspection", "secPerPc": 10, "lossRate": 0.02 },
+      { "name": "Packing", "secPerPc": 3, "lossRate": 0.02 }
+    ]
+  },
+
+  "packingRef": {
+    "records": [
+      "packing-costs/plastic-bag/2026-01-01",
+      "packing-costs/carton-box/2026-01-01",
+      "packing-costs/paper-pallet/2026-01-01"
+    ]
+  },
+  "packing": {
+    "items": [
+      { "name": "Plastic Bag", "priceTHB": 0.5, "qtyPerUnit": 50 },
+      { "name": "Carton Box", "priceTHB": 0, "qtyPerUnit": 8000 },
+      { "name": "Paper Pallet", "priceTHB": 350, "qtyPerUnit": 128000 }
+    ]
+  },
+
+  "transportationRef": { "record": "transportation/default/2026-01-01" },
+  "transportation": { "vehicleTHB": 2500, "fuelTHB": 0, "qtyPerTrip": 384000 },
+
+  "tooling": {
+    "items": [
+      { "name": "Mold", "qty": 300, "unitPriceTHB": 450 },
+      { "name": "Inspection Jig", "totalTHB": 10000 },
+      { "name": "Hanger", "totalTHB": 5100 }
+    ],
+    "customerMarkup": 1.25
+  },
+
+  "overheadRate": 0.10,
+  "profitRate": 0.50,
+
+  "calculated": {
+    "materialCostPerPc": 1.539,
+    "laborCostPerPc": 0.723,
+    "packingCostPerPc": 0.013,
+    "transportationCostPerPc": 0.007,
+    "cogs": 2.282,
+    "overhead": 0.228,
+    "profit": 1.141,
+    "totalPrice": 3.651,
+    "materialPct": 0.422,
+    "grossMarginPct": 0.375,
+    "finalPriceToCustomer": 3.85
+  },
+
+  "_seed": "[SEED DATA] スキーマ検証用のサンプル。dipquo リポジトリの UI モックアップ・設計ドキュメントと数値を揃えてある。実データで置き換えること。"
+}
