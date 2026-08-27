@@ -1,0 +1,9 @@
+{
+  "effectiveFrom": "2026-01-01",
+  "conditions": {},
+  "recordedAt": "2026-08-27T00:00:00.000Z",
+  "recordedBy": "a.uryu@kunomura.com",
+  "note": "Initial seed rate — update via Master Data admin page as needed.",
+  "jpyPerThb": 4.2,
+  "usdPerThb": 0.028
+}
