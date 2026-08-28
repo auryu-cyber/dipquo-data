@@ -2,3 +2,4 @@
 {"type":"activity","at":"2026-08-28T00:10:23.702Z","user":"a.uryu@kunomura.com","action":"edited","target":"F4P0010/current"}
 {"type":"activity","at":"2026-08-28T00:31:11.961Z","user":"a.uryu@kunomura.com","action":"edited","target":"F4P0010/current","detail":"Order Status: - → in_negotiation; Final Price to Customer: 3.066 → 3.250"}
 {"type":"activity","at":"2026-08-28T00:51:03.048Z","user":"a.uryu@kunomura.com","action":"edited","target":"F4P0010/current","detail":"Final Price to Customer: 3.250 → 3.260"}
+{"type":"activity","at":"2026-08-28T01:27:42.871Z","user":"a.uryu@kunomura.com","action":"edited","target":"master:materials/csh107","detail":"Updated rate effective 2026-01-01 → 2026-01-01"}
