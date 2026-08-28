@@ -1,19 +1,5 @@
 {
-  "_comment": "一覧表示用のキャッシュ。信頼できる情報源は quotes/**/*.json 側。壊れた場合は全走査して再生成できる。",
   "quotes": [
-    {
-      "id": "F4P0010",
-      "variant": "current",
-      "productName": "F4P0010",
-      "material": "Pecoat 343 (Green)",
-      "monthlyQty": 40000,
-      "finalPriceToCustomer": 3.25,
-      "grossMarginPct": 0.375,
-      "status": "confirmed",
-      "updatedAt": "2026-08-20T18:42:00+07:00",
-      "updatedBy": "a.uryu@kunomura.com",
-      "path": "quotes/F4P0010/current.json"
-    },
     {
       "id": "F4P0010",
       "variant": "alt-csh107",
@@ -26,6 +12,19 @@
       "updatedAt": "2026-08-20T18:42:00+07:00",
       "updatedBy": "a.uryu@kunomura.com",
       "path": "quotes/F4P0010/alt-csh107.json"
+    },
+    {
+      "id": "F4P0010",
+      "variant": "current",
+      "productName": "F4P0010",
+      "material": "Pecoat 343 (Green)",
+      "monthlyQty": 40000,
+      "finalPriceToCustomer": 3.066,
+      "grossMarginPct": 0.375,
+      "status": "confirmed",
+      "updatedAt": "2026-08-28T00:10:06.797Z",
+      "updatedBy": "a.uryu@kunomura.com",
+      "path": "quotes/F4P0010/current.json"
     }
   ]
 }
