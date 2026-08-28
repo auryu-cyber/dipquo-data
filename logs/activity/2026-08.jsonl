@@ -6,3 +6,4 @@
 {"type":"activity","at":"2026-08-28T01:28:16.369Z","user":"a.uryu@kunomura.com","action":"edited","target":"master:materials/csh107","detail":"Added rate effective 2026-06-01"}
 {"type":"activity","at":"2026-08-28T01:29:15.428Z","user":"a.uryu@kunomura.com","action":"edited","target":"master:labor-rates/default","detail":"Added rate effective 2026-01-02"}
 {"type":"activity","at":"2026-08-28T01:29:31.801Z","user":"a.uryu@kunomura.com","action":"edited","target":"master:labor-rates/default","detail":"Updated rate effective 2026-01-01 → 2026-01-01"}
+{"type":"activity","at":"2026-08-28T01:32:58.966Z","user":"a.uryu@kunomura.com","action":"edited","target":"master:materials/pecoat-343","detail":"Updated rate effective 2026-07-01 → 2026-07-01"}
