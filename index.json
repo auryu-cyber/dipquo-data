@@ -17,12 +17,14 @@
       "id": "F4P0010",
       "variant": "current",
       "productName": "F4P0010",
+      "customerName": "Test",
+      "inquiryDate": "2026-08-28",
       "material": "Pecoat 343 (Green)",
       "monthlyQty": 40000,
-      "finalPriceToCustomer": 3.066,
-      "grossMarginPct": 0.375,
+      "finalPriceToCustomer": 3.25,
+      "grossMarginPct": 0.4103,
       "status": "confirmed",
-      "updatedAt": "2026-08-28T00:10:22.231Z",
+      "updatedAt": "2026-08-28T00:31:09.669Z",
       "updatedBy": "a.uryu@kunomura.com",
       "path": "quotes/F4P0010/current.json"
     }
