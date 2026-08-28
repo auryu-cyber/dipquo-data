@@ -21,10 +21,10 @@
       "inquiryDate": "2026-08-28",
       "material": "Pecoat 343 (Green)",
       "monthlyQty": 40000,
-      "finalPriceToCustomer": 3.25,
-      "grossMarginPct": 0.4103,
+      "finalPriceToCustomer": 3.26,
+      "grossMarginPct": 0.4121,
       "status": "confirmed",
-      "updatedAt": "2026-08-28T00:31:09.669Z",
+      "updatedAt": "2026-08-28T00:51:01.529Z",
       "updatedBy": "a.uryu@kunomura.com",
       "path": "quotes/F4P0010/current.json"
     }
