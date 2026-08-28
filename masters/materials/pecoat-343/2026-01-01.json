@@ -1,9 +1,8 @@
 {
   "effectiveFrom": "2026-01-01",
   "conditions": {},
-  "note": "[SEED DATA] スキーマ検証用のサンプル。実データで置き換えること。",
   "displayName": "Pecoat 343 (Green)",
   "pricePerKg": 108,
-  "recordedAt": "2026-08-28T01:33:06.483Z",
+  "recordedAt": "2026-08-28T01:34:31.886Z",
   "recordedBy": "a.uryu@kunomura.com"
 }
