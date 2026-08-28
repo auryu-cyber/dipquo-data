@@ -4,58 +4,110 @@
   "productName": "F4P0010",
   "status": "confirmed",
   "monthlyQty": 40000,
-  "updatedAt": "2026-08-20T18:42:00+07:00",
+  "updatedAt": "2026-08-28T00:10:06.797Z",
   "updatedBy": "a.uryu@kunomura.com",
-
-  "materialRef": { "materialCode": "pecoat-343", "effectiveFrom": "2026-07-01" },
+  "materialRef": {
+    "materialCode": "pecoat-343",
+    "effectiveFrom": "2026-07-01"
+  },
   "material": {
     "name": "Pecoat 343 (Green)",
     "pricePerKg": 114.42,
     "weightG": 9.5,
-    "lossRate": { "setting": 0.02, "moulding": 0.02, "cutting": 0.02, "inspection": 0.02 }
+    "lossRate": {
+      "setting": 0.02,
+      "moulding": 0.02,
+      "cutting": 0.02,
+      "inspection": 0.02
+    }
   },
-
-  "laborRef": { "record": "labor-rates/default/2026-01-01" },
+  "laborRef": {
+    "record": "labor-rates/default/2026-01-01",
+    "effectiveFrom": "2026-08-28"
+  },
   "labor": {
     "hourlyChargeTHB": 50,
     "processes": [
-      { "name": "Dipping", "qtyPerShot": 180, "cycleTimeMin": 6, "machines": 1, "lossRate": 0.04 },
-      { "name": "Cutting (Manual)", "qtyPerHour": 100, "lossRate": 0.02 },
-      { "name": "Inspection", "secPerPc": 10, "lossRate": 0.02 },
-      { "name": "Packing", "secPerPc": 3, "lossRate": 0.02 }
+      {
+        "name": "Dipping",
+        "qtyPerShot": 180,
+        "cycleTimeMin": 6,
+        "machines": 1,
+        "lossRate": 0.03960000000000008
+      },
+      {
+        "name": "Cutting (Manual)",
+        "qtyPerHour": 100,
+        "lossRate": 0.02
+      },
+      {
+        "name": "Inspection",
+        "secPerPc": 10,
+        "lossRate": 0.02
+      },
+      {
+        "name": "Packing",
+        "secPerPc": 3,
+        "lossRate": 0.02
+      }
     ]
   },
-
   "packingRef": {
     "records": [
       "packing-costs/plastic-bag/2026-01-01",
       "packing-costs/carton-box/2026-01-01",
       "packing-costs/paper-pallet/2026-01-01"
-    ]
+    ],
+    "effectiveFrom": "2026-08-28"
   },
   "packing": {
     "items": [
-      { "name": "Plastic Bag", "priceTHB": 0.5, "qtyPerUnit": 50 },
-      { "name": "Carton Box", "priceTHB": 0, "qtyPerUnit": 8000 },
-      { "name": "Paper Pallet", "priceTHB": 350, "qtyPerUnit": 128000 }
+      {
+        "name": "Plastic Bag",
+        "priceTHB": 0.5,
+        "qtyPerUnit": 50
+      },
+      {
+        "name": "Carton Box",
+        "priceTHB": 0,
+        "qtyPerUnit": 8000
+      },
+      {
+        "name": "Paper Pallet",
+        "priceTHB": 350,
+        "qtyPerUnit": 128000
+      }
     ]
   },
-
-  "transportationRef": { "record": "transportation/default/2026-01-01" },
-  "transportation": { "vehicleTHB": 2500, "fuelTHB": 0, "qtyPerTrip": 384000 },
-
+  "transportationRef": {
+    "record": "transportation/default/2026-01-01",
+    "effectiveFrom": "2026-08-28"
+  },
+  "transportation": {
+    "vehicleTHB": 2500,
+    "fuelTHB": 0,
+    "qtyPerTrip": 384000
+  },
   "tooling": {
     "items": [
-      { "name": "Mold", "qty": 300, "unitPriceTHB": 450 },
-      { "name": "Inspection Jig", "totalTHB": 10000 },
-      { "name": "Hanger", "totalTHB": 5100 }
+      {
+        "name": "Mold",
+        "qty": 300,
+        "unitPriceTHB": 450
+      },
+      {
+        "name": "Inspection Jig",
+        "totalTHB": 10000
+      },
+      {
+        "name": "Hanger",
+        "totalTHB": 5100
+      }
     ],
     "customerMarkup": 1.25
   },
-
-  "overheadRate": 0.10,
-  "profitRate": 0.50,
-
+  "overheadRate": 0.1,
+  "profitRate": 0.5,
   "calculated": {
     "materialCostPerPc": 1.174,
     "laborCostPerPc": 0.723,
@@ -64,11 +116,27 @@
     "cogs": 1.917,
     "overhead": 0.192,
     "profit": 0.958,
-    "totalPrice": 3.067,
-    "materialPct": 0.383,
+    "totalPrice": 3.066,
+    "materialPct": 0.3828,
     "grossMarginPct": 0.375,
-    "finalPriceToCustomer": 3.25
+    "finalPriceToCustomer": 3.066
   },
-
-  "_seed": "[SEED DATA] スキーマ検証用のサンプル。dipquo リポジトリの UI モックアップ・設計ドキュメントと数値を揃えてある。実データで置き換えること。"
+  "_seed": "[SEED DATA] スキーマ検証用のサンプル。dipquo リポジトリの UI モックアップ・設計ドキュメントと数値を揃えてある。実データで置き換えること。",
+  "pricingDate": "2026-08-28",
+  "exchangeRateRef": {
+    "record": "",
+    "effectiveFrom": "2026-08-28"
+  },
+  "exchangeRate": {
+    "jpyPerThb": 4.2,
+    "usdPerThb": 0.028
+  },
+  "customerName": "Test",
+  "projectName": "Test2",
+  "projectType": "new_model",
+  "massProductionStart": {
+    "year": 2026,
+    "granularity": "month",
+    "period": 8
+  }
 }
